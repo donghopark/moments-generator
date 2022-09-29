@@ -1,4 +1,4 @@
-import moment from 'moment'
+import moment from 'moment';
 
 function moments(pivot: moment.Moment, option: moment.Moment): moment.Moment[]
 function moments(pivot: moment.Moment, option: moment.unitOfTime.StartOf): moment.Moment[]
