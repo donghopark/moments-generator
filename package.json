@@ -1,5 +1,5 @@
 {
-  "name": "moments_generator",
+  "name": "moments-generator",
   "version": "0.0.1",
   "description": "It generates moments",
   "main": "./index.ts",
