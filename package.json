@@ -4,7 +4,8 @@
   "description": "It generates moments",
   "main": "./index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "ts-node ./example/index.ts"
   },
   "author": "Dongho Park <hue.dongho.park@gmail.com>",
   "license": "MIT",
@@ -21,5 +22,8 @@
   },
   "bugs": {
     "url": "https://github.com/donghopark/moments-generator/issues"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
   }
 }
