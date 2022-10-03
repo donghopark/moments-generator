@@ -1,6 +1,10 @@
-import moment from 'moment';
+import * as moment from 'moment';
 
-function momentsGenerator(pivot: moment.Moment, option: moment.Moment | moment.unitOfTime.StartOf | number, unit?: moment.unitOfTime.DurationAs): moment.Moment[];
+function momentsGenerator(
+  pivot: moment.Moment,
+  option: moment.Moment | moment.unitOfTime.StartOf | number,
+  unit?: moment.unitOfTime.DurationAs,
+): moment.Moment[];
 
 function momentsGenerator(pivot: moment.Moment, option: any, unit: moment.unitOfTime.DurationAs = 'day'): moment.Moment[] {
   if (moment.isMoment(option)) {
